@@ -15,8 +15,8 @@ on:
       - ".github/workflows/dataLandingZoneDeployment.yml"
 
 env:
-  AZURE_SUBSCRIPTION_ID: "2150d511-458f-43b9-8691-6819ba2e6c7b" # Update to '{dataLandingZoneSubscriptionId}'
-  AZURE_LOCATION: "northeurope"                                 # Update to '{regionName}'
+  AZURE_SUBSCRIPTION_ID: "04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20" # Update to '{dataLandingZoneSubscriptionId}'
+  AZURE_LOCATION: "eastus"                                 # Update to '{regionName}'
 
 jobs:
   validation:
