@@ -9,7 +9,7 @@
             "value": "dev"
         },
         "prefix": {
-            "value": "dlz01ah"
+            "value": "dlz01avh"
         },
         "tags": {
             "value": {}
@@ -65,7 +65,7 @@
             "value": "/subscriptions/04ecf75d-eabc-4a3e-a48a-d7e83d7a9a20/resourceGroups/dmzanhass-dev-governance/providers/Microsoft.Purview/accounts/dmzanhass-dev-purview001"
         },
         "purviewSelfHostedIntegrationRuntimeAuthKey": {
-            "value": "142477"
+            "value": ""
         },
         "portalDeployment": {
             "value": false
