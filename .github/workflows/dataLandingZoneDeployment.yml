@@ -52,7 +52,7 @@ jobs:
           scope: subscription
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           region: ${{ env.AZURE_LOCATION }}
-          template: ${{ github.workspace }}/infra/main.json
+          template: ${{ github.workspace }}/infra/main.bicep
           parameters: ${{ github.workspace }}/infra/params.dev.json administratorPassword="${{ steps.generate_password_001.outputs.password }}" deploySelfHostedIntegrationRuntimes=false
           deploymentMode: Validate
           failOnStdErr: false
@@ -102,7 +102,7 @@ jobs:
           scope: subscription
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           region: ${{ env.AZURE_LOCATION }}
-          template: ${{ github.workspace }}/infra/main.json
+          template: ${{ github.workspace }}/infra/main.bicep
           parameters: ${{ github.workspace }}/infra/params.dev.json administratorPassword="${{ steps.generate_password_001.outputs.password }}" deploySelfHostedIntegrationRuntimes=false
           deploymentMode: Incremental
           failOnStdErr: false
@@ -129,7 +129,7 @@ jobs:
           scope: subscription
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           region: ${{ env.AZURE_LOCATION }}
-          template: ${{ github.workspace }}/infra/main.json
+          template: ${{ github.workspace }}/infra/main.bicep
           parameters: ${{ github.workspace }}/infra/params.dev.json administratorPassword="${{ steps.generate_password_001.outputs.password }}" deploySelfHostedIntegrationRuntimes=true
           deploymentMode: Incremental
           failOnStdErr: false
